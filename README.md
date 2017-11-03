@@ -14,13 +14,8 @@ Save the location to a text file for later use.
 Format the location data so that it can be plotted on a map of the US that we generate using code from Purple America.
 Make the maps of locations of tweets.
 Make a gif using the images.
-Data Plan
 
 Summarize data sources, data formats, and how to obtain or generate the data you will be using We used Twython streamer (ouath2 required) to get the data and saved it to a file, "coords," which is a text file of strings. Map data is stored in csv files, and is parsed through with the appropriate csv reader. Photos are outputted as pngs.
-
-Implementation Plan
-
-Overview of you plan. Are you starting from existing code? What skills from the course will be be using to complete your project? etc. We use data from Purple America as well as similar methods to draw the map. We use all sorts of skills we acquired from the course, including (but not limited to) list comprehensions, parsing csv data, creating classes, writing functions, drawing and visualizing information, and using new, outside libraries.
 
 External Libraries
 
